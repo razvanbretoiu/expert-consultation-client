@@ -1,6 +1,5 @@
 import { DocumentType } from '@app/documents/types/enums';
 
-
 export interface IDocumentMetadata {
   id: string;
   documentNumber: number;
@@ -46,7 +45,7 @@ export class DocumentMetadata {
       documentType: this.documentType,
       dateOfDevelopment: this.dateOfDevelopment,
       dateOfReceipt: this.dateOfReceipt,
-      filePath: this.filePath,
-    }
+      filePath: this.filePath
+    };
   }
 }
